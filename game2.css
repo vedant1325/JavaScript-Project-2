@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+body{
+    background-image: url("spcback.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    height:666px;
+}
+
+h1{
+    background-color: rgb(29, 29, 34);
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    background-color: black;
+    cursor: pointer;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}img:hover{
+    background-color: black;
+    border: 7px solid black;
+    height: 170px;
+    width: 170px;
+
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 234px;
+    margin-top: 65px;
+}
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    gap: 5rem;
+    margin-top: 4rem;
+
+}
+#user-score,#Computer-score{
+    font-size: 65px;
+}
+.msg-container{
+    margin-top: 143px;
+   
+}
+#msg{
+    height: 3rem;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    display: inline;
+    border-radius: 13px;
+    padding: 1rem;
+}
